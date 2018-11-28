@@ -93,7 +93,7 @@ f=open(r".csv","r")
 fnew=open(r".csv","w")
 
 for line in f:
-    print(line.split(",")[-9])
+    #print(line.split(",")[-9])
     lng=float(line.split(",")[-9])
     lat=float(line.split(",")[-8])
     lng_new,lat_new=gcj02towgs84(lng,lat)
