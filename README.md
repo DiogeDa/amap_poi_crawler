@@ -14,3 +14,5 @@ Tips：分块爬取POI详见https://github.com/zhoujungis/Get_amap_poi_by_polygo
 3.数据分列，将location分为lon和lat两列
 
 4.使用huoxing2wgs84.py进行坐标转换，转化为wgs1984，然后利用arcgis转化为shape文件，all done！！！（修改对应的路径）
+
+5.有问题请联系：zhoujunseu@163.com
