@@ -108,7 +108,7 @@ if __name__ == '__main__':
         for j in range(0,len(keyword)):
             ##填入你的key
             url_amap = 'http://restapi.amap.com/v3/place/text?key=此处填入你的key&keywords='+ keyword[j] +'&types='+ type[j] +'&city='+ city[i] +'&citylimit=true&children=1&offset=20&page=pageindex&extensions=all'
-            page_size = 25  # 每页记录数据，强烈建议不超过25，若超过25可能造成访问报错
+            page_size = 20
             page_index = r'page=1'  # 显示页码
             global total_record
             total_record = 0
